@@ -1,0 +1,28 @@
+.page {
+    background: url('../../assets/images/background.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.heroes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.versus {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.hero1, .hero2 {
+    width: 300px
+}
+
+.hero1 img, .hero2 img {
+    max-width: 100%;
+}

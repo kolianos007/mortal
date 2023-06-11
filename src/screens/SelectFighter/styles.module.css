@@ -1,0 +1,52 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('../../assets/images/main_bg.jpg') no-repeat;
+    background-size: cover
+}
+
+.wrapper {
+    max-height: 770px;
+    text-align: center;
+}
+
+.heroesList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 810px;
+    position: relative;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.figure1, .figure2 {
+    position: absolute;
+    bottom: 30px;
+    max-width: 150px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.figure1 {
+    left: -200px;
+}
+
+.figure2 {
+    right: -200px;
+}
+
+.figure1 img, .figure2 img {
+    max-width: 100%;
+    background: transparent;
+}
